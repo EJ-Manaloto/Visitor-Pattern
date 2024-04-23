@@ -2,7 +2,7 @@ class TelcoAllowance implements UsagePromo {
 
   @Override
   public String showAllowance(String telcoName, double price) {
-    return telcoName + " offers " + getDataAllowance(telcoName, price) + " GB data allowance for Php " + price + " per month."; // Replace with your logic to retrieve dataAllowance based on telcoName and price (if needed)
+    return telcoName + " offers " + getDataAllowance(telcoName, price) + " GB data allowance for Php " + price + " per month."; 
   }
 
   private int getDataAllowance(String telcoName, double price) {
